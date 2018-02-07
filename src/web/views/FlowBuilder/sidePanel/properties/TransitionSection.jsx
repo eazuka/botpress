@@ -81,7 +81,7 @@ export default class TransitionSection extends Component {
 
     return (
       <div>
-        <Panel collapsible defaultExpanded={true} header={header}>
+        <Panel collapsible="true" defaultExpanded={true} header={header}>
           {items.map((item, i) => (
             <ConditionItem className={style.item} condition={item} position={i}>
               {renderType(item)}

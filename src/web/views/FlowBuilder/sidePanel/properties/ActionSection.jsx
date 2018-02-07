@@ -105,7 +105,7 @@ export default class ActionSection extends Component {
 
     return (
       <div>
-        <Panel collapsible defaultExpanded={true} header={header}>
+        <Panel collapsible="true" defaultExpanded={true} header={header}>
           {this.renderWait()}
           {items.map((item, i) => (
             <ActionItem className={style.item} text={item}>
